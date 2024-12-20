@@ -1,4 +1,10 @@
 ## Usage
+git clone the repo
+```
+git clone https://github.com/kiplrry/excel_to_json.git
+```
+move into the directory
+
 create a virtual environment and start it
 
 ```
