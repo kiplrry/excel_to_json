@@ -9,7 +9,7 @@ import math
 def convert(filename: str):
     out = "".join(filename.split('.')[:-1])
     
-    header_row_index = 6  # Adjust this based on where the actual data headers start
+    header_row_index = 6 
 
     def get_range(cols: list[str]):
         ind = -1
@@ -32,7 +32,7 @@ def convert(filename: str):
 
     def nest_list(data):
         if len(data) == 1:
-            return data[0]  # Base case: return the last item as the value
+            return data[0] 
         return {data[0]: nest_list(data[1:])}
     def nest(d: dict):
         final = []
